@@ -223,6 +223,7 @@ type ContainerPort struct {
 	// Protocol used by the server listening on this port.
 	// +kubebuilder:validation:Enum=TCP;UDP
 	// +optional
+	// +kubebuilder:default=TCP
 	Protocol *TransportProtocol `json:"protocol,omitempty"`
 }
 

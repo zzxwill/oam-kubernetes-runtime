@@ -250,6 +250,7 @@ spec:
                             pattern: ^[a-z]+$
                             type: string
                           protocol:
+                            default: TCP
                             description: Protocol used by the server listening on
                               this port.
                             enum:
